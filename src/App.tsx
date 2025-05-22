@@ -57,7 +57,7 @@ function App() {
   return (
     <ThemeProvider>
       <AnimatePresence>
-        <div className="min-h-screen bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300 relative overflow-hidden">
+        <div className="min-h-screen bg-black text-gray-100 transition-colors duration-300 relative overflow-hidden">
           {/* Scroll Progress Indicator */}
           <ScrollProgress showPercentage={true} />
 
@@ -119,17 +119,17 @@ function App() {
             <Header scrolled={scrolled} />
             <main className="pt-16">
               <Hero />
-              <SectionDivider variant="wave" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="wave" fillColor="fill-black" />
               <About />
-              <SectionDivider variant="curve" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="curve" fillColor="fill-black" />
               <Experience />
-              <SectionDivider variant="triangle" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="triangle" fillColor="fill-black" />
               <Skills />
-              <SectionDivider variant="zigzag" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="zigzag" fillColor="fill-black" />
               <Projects />
-              <SectionDivider variant="wave" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="wave" fillColor="fill-black" />
               <Education />
-              <SectionDivider variant="curve" fillColor="fill-white dark:fill-gray-900" />
+              <SectionDivider variant="curve" fillColor="fill-black" />
               <Contact />
             </main>
             <Footer />
