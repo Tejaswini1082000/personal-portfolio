@@ -12,27 +12,27 @@ const Footer = () => {
               © {currentYear} Sai Navya Tejaswini Vemuri. All rights reserved.
             </p>
           </div>
-          
+
           <div className="flex items-center space-x-6">
-            <a 
-              href="https://github.com" 
-              target="_blank" 
+            <a
+              href="https://github.com/Tejaswini1082000"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400 transition-colors"
               aria-label="GitHub"
             >
               <Github size={20} />
             </a>
-            <a 
-              href="https://linkedin.com" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/tejaswini-navya-vemuri-968939346/"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400 transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
             </a>
-            <a 
+            <a
               href="mailto:tejunavya0427@gmail.com"
               className="text-gray-600 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400 transition-colors"
               aria-label="Email"
