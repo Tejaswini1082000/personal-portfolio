@@ -9,15 +9,8 @@ type ThemeContextType = {
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: ReactNode }) {
-  const [theme, setTheme] = useState<Theme>(() => {
-    // Check if theme is stored in localStorage
-    const savedTheme = localStorage.getItem('theme');
-    
-    // Check if user prefers dark mode
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    
-    return (savedTheme as Theme) || (prefersDark ? 'dark' : 'light');
-  });
+  // Always use dark theme
+  const [theme, setTheme] = useState<Theme>('dark');
 
   // Update class on theme change
   useEffect(() => {

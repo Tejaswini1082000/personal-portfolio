@@ -78,7 +78,7 @@ function App() {
                 transform: 'translate(-50%, -50%)',
                 width: '50vw',
                 height: '50vw',
-                background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.15), rgba(99, 102, 241, 0.05) 40%, transparent 70%)',
+                background: 'radial-gradient(circle at center, rgba(99, 102, 241, 0.3), rgba(99, 102, 241, 0.1) 40%, transparent 70%)',
                 filter: 'blur(20px)',
               }}
             />
@@ -91,7 +91,7 @@ function App() {
                 transform: 'translate(50%, 50%)',
                 width: '40vw',
                 height: '40vw',
-                background: 'radial-gradient(circle at center, rgba(139, 92, 246, 0.15), rgba(139, 92, 246, 0.05) 40%, transparent 70%)',
+                background: 'radial-gradient(circle at center, rgba(139, 92, 246, 0.3), rgba(139, 92, 246, 0.1) 40%, transparent 70%)',
                 filter: 'blur(20px)',
               }}
             />
@@ -104,14 +104,14 @@ function App() {
                 transform: 'translate(-50%, 50%)',
                 width: '35vw',
                 height: '35vw',
-                background: 'radial-gradient(circle at center, rgba(236, 72, 153, 0.1), rgba(236, 72, 153, 0.03) 40%, transparent 70%)',
+                background: 'radial-gradient(circle at center, rgba(236, 72, 153, 0.25), rgba(236, 72, 153, 0.08) 40%, transparent 70%)',
                 filter: 'blur(25px)',
               }}
             />
             {/* Grid overlay */}
-            <div className="absolute inset-0 bg-grid-pattern opacity-[0.03] pointer-events-none" />
+            <div className="absolute inset-0 bg-grid-pattern opacity-[0.07] pointer-events-none" />
             {/* Subtle noise texture */}
-            <div className="absolute inset-0 bg-noise opacity-[0.02] pointer-events-none" />
+            <div className="absolute inset-0 bg-noise opacity-[0.05] pointer-events-none" />
           </div>
 
           {/* Content */}

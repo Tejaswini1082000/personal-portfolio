@@ -6,19 +6,19 @@
   .animation-delay-200 {
     animation-delay: 200ms;
   }
-  
+
   .animation-delay-400 {
     animation-delay: 400ms;
   }
-  
+
   .animate-blob {
     animation: blob 7s infinite;
   }
-  
+
   .animation-delay-2000 {
     animation-delay: 2s;
   }
-  
+
   .animation-delay-4000 {
     animation-delay: 4s;
   }
@@ -63,8 +63,8 @@ body {
 }
 
 .bg-grid-pattern {
-  background-image: linear-gradient(to right, rgb(99 102 241 / 0.1) 1px, transparent 1px),
-                    linear-gradient(to bottom, rgb(99 102 241 / 0.1) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgb(99 102 241 / 0.2) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgb(99 102 241 / 0.2) 1px, transparent 1px);
   background-size: 24px 24px;
 }
 

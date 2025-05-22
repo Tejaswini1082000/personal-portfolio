@@ -29,7 +29,7 @@ const Projects = () => {
   };
 
   return (
-    <Section id="projects" title="Projects" className="bg-gray-50 dark:bg-gray-800">
+    <Section id="projects" title="Projects" className="bg-black">
       <motion.div
         className="grid grid-cols-1 md:grid-cols-2 gap-8"
         variants={containerVariants}
@@ -42,7 +42,7 @@ const Projects = () => {
             <TiltCard className="h-full">
               <Card hoverable glowEffect className="h-full group">
                 {project.image && (
-                  <div className="w-full h-48 bg-gray-200 dark:bg-gray-700 overflow-hidden relative">
+                  <div className="w-full h-48 bg-gray-800 overflow-hidden relative">
                     <motion.img
                       src={project.image}
                       alt={project.title}
@@ -59,13 +59,13 @@ const Projects = () => {
                 )}
                 <CardContent staggerChildren>
                   <motion.h3
-                    className="text-xl font-bold mb-2 text-gray-900 dark:text-white"
+                    className="text-xl font-bold mb-2 text-white"
                     variants={itemVariants}
                   >
                     {project.title}
                   </motion.h3>
                   <motion.p
-                    className="text-gray-700 dark:text-gray-300 mb-4"
+                    className="text-gray-300 mb-4"
                     variants={itemVariants}
                   >
                     {project.description}

@@ -20,9 +20,9 @@ const Card = ({
 }: CardProps) => {
   // Base styles
   const baseStyles = `
-    bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden
-    ${hoverable ? 'transition-all duration-300 hover:-translate-y-2 hover:shadow-lg' : ''}
-    ${glowEffect ? 'hover:shadow-lg hover:shadow-indigo-500/20 dark:hover:shadow-indigo-400/20' : ''}
+    bg-gray-900 rounded-lg shadow-md overflow-hidden border border-gray-800
+    ${hoverable ? 'transition-all duration-300 hover:-translate-y-2 hover:shadow-lg hover:shadow-indigo-500/20' : ''}
+    ${glowEffect ? 'hover:shadow-lg hover:shadow-indigo-500/30' : ''}
     ${className}
   `;
 

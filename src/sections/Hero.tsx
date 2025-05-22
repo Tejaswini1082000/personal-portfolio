@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         {/* Animated background blobs */}
         <motion.div
-          className="absolute top-20 left-20 w-64 h-64 bg-purple-300/20 dark:bg-purple-500/10 rounded-full filter blur-3xl"
+          className="absolute top-20 left-20 w-64 h-64 bg-purple-500/20 rounded-full filter blur-3xl"
           animate={{
             scale: [1, 1.2, 1],
             x: [0, 30, 0],
@@ -32,7 +32,7 @@ const Hero = () => {
           }}
         />
         <motion.div
-          className="absolute bottom-20 right-20 w-72 h-72 bg-indigo-300/20 dark:bg-indigo-500/10 rounded-full filter blur-3xl"
+          className="absolute bottom-20 right-20 w-72 h-72 bg-indigo-500/20 rounded-full filter blur-3xl"
           animate={{
             scale: [1, 0.8, 1],
             x: [0, -40, 0],
@@ -45,7 +45,7 @@ const Hero = () => {
           }}
         />
         <motion.div
-          className="absolute top-1/2 left-1/3 w-96 h-96 bg-teal-300/20 dark:bg-teal-500/10 rounded-full filter blur-3xl"
+          className="absolute top-1/2 left-1/3 w-96 h-96 bg-teal-500/20 rounded-full filter blur-3xl"
           animate={{
             scale: [1, 1.1, 0.9, 1],
             x: [0, 50, -30, 0],
@@ -63,7 +63,7 @@ const Hero = () => {
           {[...Array(20)].map((_, i) => (
             <motion.div
               key={i}
-              className="absolute w-2 h-2 rounded-full bg-indigo-500/20 dark:bg-indigo-400/20"
+              className="absolute w-2 h-2 rounded-full bg-indigo-400/40"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
