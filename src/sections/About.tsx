@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 const About = () => {
   return (
-    <Section id="about" title="About Me" className="bg-gray-900 dark:bg-black text-white relative overflow-hidden">
+    <Section id="about" title="About my background" className="bg-gray-900 dark:bg-black text-white relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-indigo-500/10 rounded-full mix-blend-multiply filter blur-xl animate-blob"></div>
