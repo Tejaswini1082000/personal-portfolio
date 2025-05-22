@@ -50,6 +50,51 @@ export default {
       },
       animation: {
         'bounce-slow': 'bounce 3s infinite',
+        'spin-slow': 'spin 8s linear infinite',
+        'pulse-slow': 'pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'wave': 'wave 8s linear infinite',
+        'blob': 'blob 7s infinite',
+        'text-shimmer': 'text-shimmer 2.5s ease-out infinite alternate',
+        'border-beam': 'border-beam 2s infinite',
+      },
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+        wave: {
+          '0%': { transform: 'translateX(0) translateZ(0) scaleY(1)' },
+          '50%': { transform: 'translateX(-25%) translateZ(0) scaleY(0.8)' },
+          '100%': { transform: 'translateX(-50%) translateZ(0) scaleY(1)' },
+        },
+        blob: {
+          '0%': { transform: 'translate(0px, 0px) scale(1)' },
+          '33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+          '66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+          '100%': { transform: 'translate(0px, 0px) scale(1)' },
+        },
+        'text-shimmer': {
+          '0%': { backgroundPosition: '0 0' },
+          '100%': { backgroundPosition: '-200% 0' },
+        },
+        'border-beam': {
+          '100%': { 'offset-distance': '100%' }
+        }
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-shine': 'linear-gradient(45deg, transparent 25%, rgba(255, 255, 255, 0.1) 25%, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent 75%, rgba(255, 255, 255, 0.1) 75%, rgba(255, 255, 255, 0.1))',
+      },
+      backgroundSize: {
+        'shine': '200% 200%',
+      },
+      boxShadow: {
+        'neon': '0 0 5px theme(colors.purple.500), 0 0 20px theme(colors.purple.700)',
+        'neon-blue': '0 0 5px theme(colors.blue.500), 0 0 20px theme(colors.blue.700)',
+        'neon-green': '0 0 5px theme(colors.green.500), 0 0 20px theme(colors.green.700)',
+        '3d': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05), inset 0 -3px 0 rgba(0, 0, 0, 0.1)',
       },
     },
   },
