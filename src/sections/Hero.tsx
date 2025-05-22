@@ -14,7 +14,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-indigo-50 to-white dark:from-gray-900 dark:to-gray-800"
+      className="min-h-screen flex items-center justify-center relative bg-black"
     >
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
         {/* Animated background blobs */}
